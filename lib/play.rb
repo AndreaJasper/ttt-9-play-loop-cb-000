@@ -38,8 +38,12 @@ end
 # Define your play method below
 def play(board)
   turn = 0
-  until turn == 9
-    turn += 1
-    puts "Please enter 1-9"
-  end
+  if move(board, index, current_player = "X")
+    until turn == 9
+      turn += 1
+      puts "Please enter 1-9"
+    end
+  else
+    puts "Please enter 1-9"  
+  end  
 end
