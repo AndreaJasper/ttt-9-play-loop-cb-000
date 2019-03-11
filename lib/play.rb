@@ -42,4 +42,4 @@ def play(board)
     turn += 1
     puts "Please enter 1-9"
   end
-end  
+end
