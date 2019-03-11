@@ -44,6 +44,6 @@ def play(board)
       puts "Please enter 1-9"
     end
   else
-    puts "Please enter 1-9"  
-  end  
+    puts "Please enter 1-9"
+  end
 end
