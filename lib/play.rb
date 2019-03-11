@@ -38,9 +38,9 @@ end
 # Define your play method below
 def play(board, turn)
   if play(valid_move?)
-    play = 0
-    until play == 9
-      play += 1
+    turn = 0
+    until turn == 9
+      turn += 1
     end
   else
     puts "Please enter 1-9"
