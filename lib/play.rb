@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board, turn)
-  if play(valid_move?)
+  if play(valid_move?, turn)
     turn = 0
     until turn == 9
       turn += 1
